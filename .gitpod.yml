@@ -6,3 +6,7 @@ tasks:
 vscode:
   extensions:
     - ms-vscode.csharp@1.21.12:kw8SkO8+aVTSFug281WfQQ==
+
+ports:
+  - port: 8000
+    onOpen: open-preview
